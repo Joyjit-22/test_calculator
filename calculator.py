@@ -1,4 +1,7 @@
-def add_two_number(a,b):
+def add(a,b):
     return a+b
-
-print(add_two_number(2,4))
+def div(a,b):
+    return a-b
+__name__ = "__main__"
+print(add(2,3))
+print(div(2,3))
